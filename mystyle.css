@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.banner {
+}
+li {
+	list-style-type: none;
+	display: inline;
+	padding-left: 29px;
+	padding-right: 29px;
+}
+ul {
+	width: auto;
+	text-align: center;
+	float: right;
+	position: relative;
+	top: 28px;
+}
+.hero {
+	background-image: url(intro.jpg);
+	background-size: cover;
+	padding-top: 270px;
+	padding-bottom: 270px;
+	text-align: center;
+	color: #FBFBFB;
+}
+.hero a {
+	background-color: #45ECFF;
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	padding-top: 15px;
+	border-radius: 20px;
+	padding-bottom: 15px;
+}
+.columns {
+}
+.col1, .col2, .col3 {
+	width: 33.3%;
+	float: left;
+}
+.col1 p, .col2 p, .col3 p {
+	padding-left: 0px;
+}
+.footer {
+	clear: both;
+	background-color: #B2B2B2;
+}
